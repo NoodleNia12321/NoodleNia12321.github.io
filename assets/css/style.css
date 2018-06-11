@@ -1,41 +1,4 @@
-/*------------------------------------------------------------------
 
-Project:	Blink - HTML Template
-Version:	1.0
-Release:	20/10/2014
-Updated:	20/10/2014
-Authors:	QBKL Studio
-
-
-[Table of contents]
-
-1. Generic
-	1.1. Typography
-2. Header / #header
-	2.1. Navigation / #nav
-	2.2. Hero / #hero / #hero-slider
-3. Main / #main
-	3.1. Components
-		3.1.1. Photo Box / .photo-box
-		3.1.2. Services
-		3.1.3. Skills
-		3.1.4. Projects / .projects
-		3.1.5. Testimonials / .testimonial
-		3.1.6. Form / #form
-		3.1.7. Google Map / .gmap
-		3.1.8. Social Media / .social-media
-	3.2. Plugged Components
-		3.2.1. Venobox
-		3.2.2. Owl Carousel / .slider
-	3.3. Sections and Color Coding / .section
-4. Footer / #footer
-5. Animations
-6. Media Queries
-
-------------------------------------------------------------------*/
-
-
-/* 1. Generic */
 html,
 body {
 	width: 100%;
@@ -59,8 +22,6 @@ img {
 	height: auto;
 }
 
-
-/* 1.1. Typography */
 h1,
 h2,
 h3,
@@ -710,28 +671,20 @@ hr {
 	opacity: 0;
 }
 .projects .project .project-overlay .project-links {
-	width: 90%;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	margin: auto;
 	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+
 }
 .projects .project .project-overlay a {
 	display: inline-block;
-	height: 40px;
-	width: 40px;
-	margin: 0 5px;
-	color: #fff;
+	height: 100%;
+	width: 100%;
 	text-align: center;
 	text-decoration: none;
-	border: 2px solid #fff;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
 }
+
 .projects .project .project-overlay a i.fa {
 	line-height: 36px;
 }
